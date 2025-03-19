@@ -10,9 +10,9 @@ namespace JodoDeTriangulos.ConsoleApp
             {
                 ExibirCabecalho();
 
-                int ladoX = LerDado("X");
-                int ladoY = LerDado("Y");
-                int ladoZ = LerDado("Z");
+                int ladoX = LerDado("X: ");
+                int ladoY = LerDado("Y: ");
+                int ladoZ = LerDado("Z: ");
 
                 ExibirValoresInformados(ladoX, ladoY, ladoZ);
 
@@ -64,9 +64,9 @@ namespace JodoDeTriangulos.ConsoleApp
         {
             Console.WriteLine("---------------------------------");
             Console.WriteLine("Valores informados: ");
-            Console.WriteLine("lado X" + ladoX);
-            Console.WriteLine("lado Y" + ladoY);
-            Console.WriteLine("lado Z" + ladoZ);
+            Console.WriteLine("lado X: " + ladoX);
+            Console.WriteLine("lado Y: " + ladoY);
+            Console.WriteLine("lado Z: " + ladoZ);
             Console.WriteLine("---------------------------------");
         }
     }
