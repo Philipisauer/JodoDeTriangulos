@@ -24,7 +24,8 @@ namespace JodoDeTriangulos.ConsoleApp
             else if (ladoX != ladoY && ladoY != ladoZ && ladoX != ladoZ)
                 tipoTriangulo = "escaleno";
 
-            tipoTriangulo = "isosceles";
+            else
+                tipoTriangulo = "isosceles";
 
             return tipoTriangulo;
         }

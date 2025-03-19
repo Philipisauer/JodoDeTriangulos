@@ -25,7 +25,7 @@ namespace JodoDeTriangulos.ConsoleApp
                     Console.WriteLine($"O triangulo é {tipoTriangulo}.");
                 }
                 else
-                    Console.WriteLine("os valores nao formam um triangulovali");
+                    Console.WriteLine("os valores nao formam um triangulo invalido");
 
                 Console.WriteLine("______________________________________________________");
 
